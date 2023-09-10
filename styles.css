@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #003566;
+    background-color: #002254;
     color: white;
     text-align: center;
     padding: 20px;
@@ -30,7 +30,7 @@ img{
 }
 
 nav {
-    background-color: #003566;
+    background-color: #002254;
     color: white;
     text-align: center;
     padding: 10px;
@@ -68,12 +68,12 @@ section {
 }
   
   section:hover {
-    color: #003566;
+    color: #002254;
     letter-spacing: 3px;
   }
 
 footer {
-    background-color: #003566;
+    background-color: #002254;
     color: white;
     text-align: center;
     padding: 10px;
@@ -118,7 +118,7 @@ h2 {
 }
 
 .container {
-    background-color: #003566;
+    background-color: #002254;
     color: white;
     max-width: 800px;
     margin: 20px auto;
