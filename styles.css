@@ -130,3 +130,40 @@ h2 {
 p {
     line-height: 1.6;
 }
+
+
+.bio {
+    padding: 20px;
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #000814;
+  overflow: hidden;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 300ms ease;
+  width: 70%;
+  margin-left: 10px;
+}
+
+/* Styles spécifiques pour la section de photos */
+#photos {
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+.photo {
+    margin-bottom: 20px;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
