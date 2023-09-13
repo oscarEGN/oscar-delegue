@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="../styles.css">
+    <title>Qui est-il ?</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="manifest" href="../icons/site.webmanifest">
 </head>
 <body>
     <header>
@@ -20,7 +25,7 @@
     <div class="elements">
         <div class="bio">
             <h2>Biographie</h2>
-            <p>Oscar David Egenschwiller est un candidat pour le poste de délégué de la Terminale 3. Ayant une grande passion pour la politique
+            <p id="bioText">Oscar David Egenschwiller est un candidat pour le poste de délégué de la Terminale 3. Ayant une grande passion pour la politique
             ainsi que des talents naturels d'orateurs et de leader il réussit à être élu deux années consecutives à ce poste.
             Connu pour ses prises de paroles remarquées mais aussi pour la ferveur avec laquelle il defend ses camarade de classe, il se forgera
             une reputation de délégué osant la confrontation quand cette derniere est nécessaire.
@@ -30,17 +35,24 @@
             Nous vous encourageons a lire son programmes en cliquant <a href="/pages/programme.html">ici</a>.
         </p></div>
     
-    <section id="photos">
-        <h2>Photos</h2>
-        <div class="photo">
-            <img src="photo1.jpg" alt="Photo 1">
-            <p>Pas encore la</p>
-        </div>
-        <div class="photo">
-            <img src="photo2.jpg" alt="Photo 2">
-            <p>Pas encore la</p>
-        </div>
-    </section>
+        <section id="photos">
+            <h2>Photos</h2>
+            <div class="slick-carousel">
+                <div class="photo">
+                    <img src="/photos/portraitChemise.jpg" alt="Photo 1">
+                    <p>.</p>
+                </div>
+                <div class="photo">
+                    <img src="/photos/portraitProfil2.jpg" alt="Photo 2">
+                    <p>.</p>
+                </div>
+                <div class="photo">
+                    <img src="/photos/portraitCostume.jpg" alt="Photo 3">
+                    <p>.</p>
+                </div>
+                <!-- Ajoutez autant d'images que nécessaire ici -->
+            </div>
+        </section>
     </div>
 </body>
 </html>
